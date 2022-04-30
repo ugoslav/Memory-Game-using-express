@@ -1,0 +1,7 @@
+Assuming that you have Node in your system and you don;t know how to run an express application , here's a bit of a guide for you.
+After cd-ing into the cloned repository, open up the terminal and run "npm install". This will install the dependencies required for this project to run.
+If everything went smooth,you should be able to see a "node modules" folder in your cloned repo now.
+Run "npm start" in the terminal to start the localserver, and then just copy paste the "localhost:..." in your browser.
+And lastly,you can change the command used to start the server as per your own wish. All you have to do is go to "package.json" file,
+and change the key value under "scripts" (which is start by default) into whatever you want.
+So,for example, if you change it to "cranberry", you have to run "npm run cranberry" to start the server now.
