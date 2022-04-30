@@ -1,0 +1,38 @@
+<%- include("header"); %>
+    <link rel="stylesheet" href="/assets/gamePage.css" type="text/css">
+</head>
+<body id="body">
+    <div id="heading">
+        <h2 id="heading-text">Try to keep up</h2>
+    </div>
+    <div id="intro-bar">
+        <div id="level">
+            <h2>Level : <span id="level-number"></span></h2>
+        </div>
+        <div id="time-left">
+            <div>
+                <h5>Time Remaining : </h5>
+            </div>
+            <div>
+                <h5 id="time"></h5>
+            </div>
+        </div>
+        <div id="flips-left">
+            <h5>Flips remaining : <span id="flips"></span></h5>
+        </div>
+    </div>
+    <div id="cards">
+        <div><img src="/assets/imgs/blank_img.jpg" alt="blank image" class="card"></div>
+        <div><img src="/assets/imgs/blank_img.jpg" alt="blank image" class="card"></div>
+        <div><img src="/assets/imgs/blank_img.jpg" alt="blank image" class="card"></div>
+        <div><img src="/assets/imgs/blank_img.jpg" alt="blank image" class="card"></div>
+        <div><img src="/assets/imgs/blank_img.jpg" alt="blank image" class="card"></div>
+        <div><img src="/assets/imgs/blank_img.jpg" alt="blank image" class="card"></div>
+        <div><img src="/assets/imgs/blank_img.jpg" alt="blank image" class="card"></div>
+        <div><img src="/assets/imgs/blank_img.jpg" alt="blank image" class="card"></div>
+        <div><img src="/assets/imgs/blank_img.jpg" alt="blank image" class="card"></div>
+        <div><img src="/assets/imgs/blank_img.jpg" alt="blank image" class="card"></div>
+    </div>
+    <script src="/javascript/levelNumberScript.js"></script>
+    <script src="/javascript/gamePageScript.js"></script>
+<%- include("bottom"); %>

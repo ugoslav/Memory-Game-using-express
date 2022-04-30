@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    color: bisque;
+    font-family: "Grape Nuts", cursive;
+}
+
+#theDiv {
+    margin-top: 180px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 5vh;
+    text-align: justify;
+    cursor: default;
+}
+
+button {
+    margin-top: 5vh;
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    background-color: black;
+    color: bisque;
+    border-radius: 50%;
+    border-style: dotted;
+    border-color: bisque;
+}
+
+#buttonDiv {
+    text-align: center;
+}
+
+button:hover {
+    animation-name: buttonHover;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes buttonHover {
+    100% {
+        border-style: solid;
+        color: black;
+        background-color: bisque;
+    }
+}

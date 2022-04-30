@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+#previous-level {
+    text-align: center;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 50px;
+    margin-top: 20vh;
+}
+
+#pmessage {
+    color: yellowgreen;
+}
+
+#next-level {
+    text-align: center;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 50px;
+    margin-top: 20vh;
+}
+
+#nmessage {
+    color: rgba(197, 213, 164, 0.688);
+}

@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+#start-button {
+    margin-top: 30vh;
+    height: 35vh;
+    width: 20vw;
+    font-size: 50px;
+    border-radius: 50%;
+    font-family: 'Grape Nuts', cursive;
+    background-color: black;
+    color: bisque;
+    border-style: dotted;
+    border-color: white;
+}
+
+#start-button:hover {
+    animation-name: something;
+    animation-duration: 0.9s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes something {
+    100% {
+        border-color: black;
+        border-style: solid;
+        background-color: bisque;
+        color: black;
+    }
+}

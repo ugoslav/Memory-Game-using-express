@@ -1,0 +1,106 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+#fmessage,
+#smessage {
+    color: yellowgreen;
+    font-family: 'Grape Nuts', cursive;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 300%;
+}
+
+#fmessage {
+    opacity: 0;
+    animation-name: firstAnimation;
+    animation-duration: 4s;
+}
+
+#smessage {
+    opacity: 0;
+    animation-name: secondAnimation;
+    animation-duration: 4s;
+}
+
+#tmessage {
+    color: yellowgreen;
+    font-family: 'Grape Nuts', cursive;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 300%;
+    opacity: 0;
+    animation-name: thirdAnimation;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+#btn {
+    opacity: 0;
+    height: 20vh;
+    width: 40vh;
+    border-radius: 50%;
+    background-color: black;
+    color: bisque;
+    border-style: dotted;
+    border-color: bisque;
+    margin-top: 50px;
+    box-shadow: 3px 3px 10px 3px bisque;
+    animation-name: buttonAnimation;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes firstAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes secondAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes thirdAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes buttonAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
